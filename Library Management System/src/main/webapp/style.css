@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+  background-image: url('img/img1.jpg');
+}
+h1
+{
+	color:white;
+
+}
+.button{
+	 background-color: white;
+	 box-shadow: 5px 10px;
+	 
+	 width:20px;
+}
+.button:hover {
+  background-color: yellow;
+}
+h3
+{
+	margin:5px;
+	text-decoration:none;
+}
+.form1{
+	position:absolute;
+	top:20%;
+	left:40%;
+	width:400px;
+	height:400px;
+	background-color:black;
+}
+.form1 h1{
+	text-align:center;
+	margin:10px;
+	padding-bottom:15px;
+	border-bottom:1px solid silver;
+}
+.card-text
+{
+	margin:20px;
+	justify-content:center;
+	position:relative;
+	border-bottom:2px solid #adadad;
+	
+}
+.form1 form
+{
+	padding:0 40px;
+	box-sizing:border-box;
+}
+.card-text input{
+	width:100%;
+	padding:0 5px;
+	height: 50px;
+	font-size:16px;
+	border:none;
+	background:none;
+	outline:none;
+	color:#fff;
+}
+.card-text label{
+	position: absolute;
+	top:50%;
+	left: 5px;
+	color:#adadad;
+	font-size: 16px;
+}
+.card-text input:focus ~label,
+.card-text input:valid ~label
+{
+	top:-5px;
+	margin:2px;
+	color: #2691d9;
+}
+input[type="submit"]
+{
+	width:90%;
+	margin-left:20px;
+	height:50px;
+	border:1px solid;
+	background-color:red;
+	border-radius:25px;
+	font-size:18px;
+	font-weight:700;
+	cursor:pointer;
+	outline:none;
+	color:#fff;
+}
+input[type="submit"]:hover
+{
+	border-color:blue;
+	transition:.5s;
+}
+.card-pass{
+	color:#fff;
+	margin:20px;
+}
+.card-pass:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
